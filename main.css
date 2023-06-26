@@ -14,15 +14,18 @@ body {
   .header__logo {
     height: 30px;
   }
+  
   a {
     text-decoration: none;
     color: #213053;
   }
+ 
   a header {
     font-size: 15px;
     font-weight: 600;
     margin-right: 25px;
   }
+ 
   button {
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
@@ -34,13 +37,16 @@ body {
     box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
     padding: 15px;
   }
-  .about_image {
+ 
+  .about__image {
     width: 500px;
   }
-  .about_sun-image {
+ 
+  .about__sun-image {
     width: 100px;
     height: 100px;
   }
+
   .about {
     display: flex;
     justify-content: space-around;
@@ -51,22 +57,26 @@ body {
     background-position: center;
     background-size: cover;
   }
+ 
   .about h1 {
     font-size: 70px;
     line-height: 76px;
     
   }
+ 
   .about p {
     font-size: 18px;
     line-height: 30px;
     opacity: 0.8;
   }
-  .about image {
+
+  .about__image {
     font-size: 18px;
     border-radius: 20px;
     padding: 20px 25px;
     margin-top: 20px;
   }
+ 
   .about__info {
     max-width: 550px;
   }
